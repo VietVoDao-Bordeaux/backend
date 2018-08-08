@@ -1,0 +1,33 @@
+uuid: 0a7a3098-add3-4ced-b276-00e00266da22
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_with_icons.field_left_content
+    - field.field.paragraph.text_with_icons.field_right_content
+    - paragraphs.paragraphs_type.text_with_icons
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.text_with_icons.default
+targetEntityType: paragraph
+bundle: text_with_icons
+mode: default
+content:
+  field_left_content:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_right_content:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

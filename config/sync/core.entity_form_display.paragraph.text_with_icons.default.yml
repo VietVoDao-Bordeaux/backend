@@ -1,0 +1,40 @@
+uuid: 40c522b5-748d-4241-9299-55907240b575
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_with_icons.field_left_content
+    - field.field.paragraph.text_with_icons.field_right_content
+    - paragraphs.paragraphs_type.text_with_icons
+  module:
+    - paragraphs
+    - text
+id: paragraph.text_with_icons.default
+targetEntityType: paragraph
+bundle: text_with_icons
+mode: default
+content:
+  field_left_content:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_right_content:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

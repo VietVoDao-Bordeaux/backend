@@ -1,0 +1,11 @@
+uuid: b9fcf9d0-478b-4c88-af20-589764cf0560
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.icons
+id: node.icons
+target_entity_type_id: node
+target_bundle: icons
+default_langcode: site_default
+language_alterable: false

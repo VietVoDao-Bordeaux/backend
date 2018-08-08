@@ -1,0 +1,21 @@
+uuid: a3f49742-90d1-4abd-9720-e4d5ddc48ad1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.icons.field_svg
+    - node.type.icons
+  module:
+    - user
+id: node.icons.teaser
+targetEntityType: node
+bundle: icons
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_svg: true
+  langcode: true

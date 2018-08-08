@@ -1,0 +1,19 @@
+uuid: 87f97fd3-086e-4dbe-9e3f-ed66029d4669
+langcode: fr
+status: true
+dependencies:
+  module:
+    - graphql
+    - serialization
+    - simple_oauth
+id: entity.graphql_query_map
+plugin_id: 'entity:graphql_query_map'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+    - xml
+  authentication:
+    - oauth2

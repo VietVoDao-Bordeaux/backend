@@ -1,0 +1,18 @@
+uuid: c8a29679-3a0c-4813-9eb5-7583fc229373
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.icons
+id: node.icons.title
+field_name: title
+entity_type: node
+bundle: icons
+label: Nom
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

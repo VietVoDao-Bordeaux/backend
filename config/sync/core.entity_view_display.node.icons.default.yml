@@ -1,0 +1,28 @@
+uuid: 08d38f25-961c-4be8-99d8-c2df62ece2ca
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.icons.field_svg
+    - node.type.icons
+  module:
+    - file
+    - user
+id: node.icons.default
+targetEntityType: node
+bundle: icons
+mode: default
+content:
+  field_svg:
+    weight: 104
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

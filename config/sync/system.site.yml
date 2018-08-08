@@ -1,0 +1,14 @@
+uuid: 8480ebe4-78b3-4de2-85dd-00181618be8a
+name: 'Viet Vo Dao Bordeaux'
+mail: maxime.hersand@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

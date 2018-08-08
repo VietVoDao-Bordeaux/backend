@@ -1,0 +1,27 @@
+uuid: 6a99f528-a29a-4191-9cf5-c0eb410c077e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_svg
+    - node.type.icons
+  module:
+    - file
+id: node.icons.field_svg
+field_name: field_svg
+entity_type: node
+bundle: icons
+label: svg
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: svg
+  max_filesize: '2 Mo'
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

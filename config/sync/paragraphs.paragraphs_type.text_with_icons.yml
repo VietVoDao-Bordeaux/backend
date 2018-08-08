@@ -1,0 +1,9 @@
+uuid: a94f4ae5-3dc7-40ec-908a-129ce35d907b
+langcode: fr
+status: true
+dependencies: {  }
+id: text_with_icons
+label: 'Texte avec liste d''icone à droite'
+icon_uuid: null
+description: 'un bloc texte à gauche et des icones à droite'
+behavior_plugins: {  }

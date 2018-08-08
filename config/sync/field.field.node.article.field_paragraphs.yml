@@ -1,0 +1,31 @@
+uuid: 5233c2d0-c281-4373-a00c-82a6c6f8c644
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.article
+    - paragraphs.paragraphs_type.text_with_icons
+  module:
+    - entity_reference_revisions
+id: node.article.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: article
+label: paragraphs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      text_with_icons: text_with_icons
+    target_bundles_drag_drop:
+      text_with_icons:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

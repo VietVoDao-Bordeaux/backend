@@ -1,0 +1,22 @@
+uuid: 4ffcc81d-c628-47ec-bfba-1e61b8e38573
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.icons
+id: node.icons.promote
+field_name: promote
+entity_type: node
+bundle: icons
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

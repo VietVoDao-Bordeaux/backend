@@ -1,0 +1,21 @@
+uuid: 6d347eb9-8dff-4e44-9588-cbd6604b21ec
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_left_content
+    - paragraphs.paragraphs_type.text_with_icons
+  module:
+    - text
+id: paragraph.text_with_icons.field_left_content
+field_name: field_left_content
+entity_type: paragraph
+bundle: text_with_icons
+label: 'Contenu de gauche'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

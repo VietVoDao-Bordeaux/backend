@@ -1,0 +1,40 @@
+uuid: cfcc0aed-25e6-42a8-86a0-878f9b9f13f8
+langcode: fr
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - serialization
+    - simple_oauth
+id: entity.oauth2_token
+plugin_id: 'entity:oauth2_token'
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+      - xml
+    supported_auth:
+      - basic_auth
+      - oauth2
+  POST:
+    supported_formats:
+      - json
+      - xml
+    supported_auth:
+      - basic_auth
+      - oauth2
+  DELETE:
+    supported_formats:
+      - json
+      - xml
+    supported_auth:
+      - basic_auth
+      - oauth2
+  PATCH:
+    supported_formats:
+      - json
+      - xml
+    supported_auth:
+      - basic_auth
+      - oauth2

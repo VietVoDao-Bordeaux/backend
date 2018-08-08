@@ -1,0 +1,11 @@
+uuid: 227efb59-1a52-420b-9975-06c96b22dc83
+langcode: fr
+status: true
+dependencies: {  }
+name: Actualité
+type: actualite
+description: 'Les actualités du site'
+help: ''
+new_revision: true
+preview_mode: 2
+display_submitted: true

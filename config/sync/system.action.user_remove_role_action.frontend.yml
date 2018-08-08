@@ -1,0 +1,14 @@
+uuid: 38a7db48-0b38-4ba1-83f4-c12a1141e177
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.frontend
+  module:
+    - user
+id: user_remove_role_action.frontend
+label: 'Enlever le rôle frontend des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: frontend
