@@ -1,0 +1,21 @@
+uuid: d19bcc08-a6ac-49a7-962c-384eff430cf8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - paragraphs.paragraphs_type.timeline_child
+  module:
+    - text
+id: paragraph.timeline_child.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: timeline_child
+label: body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

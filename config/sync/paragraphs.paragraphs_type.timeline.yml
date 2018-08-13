@@ -1,0 +1,9 @@
+uuid: 4505cf48-06df-498b-8b6d-b048107461f5
+langcode: fr
+status: true
+dependencies: {  }
+id: timeline
+label: timeline
+icon_uuid: null
+description: 'Ajoute une timeline'
+behavior_plugins: {  }

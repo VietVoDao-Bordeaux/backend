@@ -1,0 +1,33 @@
+uuid: 181daa9f-6735-46a5-8589-7c100f5d2172
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.timeline.field_child
+    - field.field.paragraph.timeline.field_title
+    - paragraphs.paragraphs_type.timeline
+  module:
+    - entity_reference_revisions
+id: paragraph.timeline.default
+targetEntityType: paragraph
+bundle: timeline
+mode: default
+content:
+  field_child:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

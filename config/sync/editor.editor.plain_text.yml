@@ -1,0 +1,67 @@
+uuid: 493d4bc4-542a-44ce-8e2f-32705cd920ae
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.plain_text
+  module:
+    - ckeditor
+format: plain_text
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Actions
+          items:
+            - Undo
+            - Redo
+        -
+          name: Formats
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - Format
+        -
+          name: Liens
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Listes
+          items:
+            - BulletedList
+            - NumberedList
+            - Outdent
+            - Indent
+        -
+          name: Média
+          items:
+            - Blockquote
+            - DrupalImage
+        -
+          name: Outils
+          items:
+            - Source
+        -
+          name: positionnement
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+  plugins:
+    stylescombo:
+      styles: ''
+    language:
+      language_list: un
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

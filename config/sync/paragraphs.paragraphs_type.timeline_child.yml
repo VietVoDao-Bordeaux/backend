@@ -1,0 +1,9 @@
+uuid: d404e650-1203-433b-9e64-8044f97e8a38
+langcode: fr
+status: true
+dependencies: {  }
+id: timeline_child
+label: 'timeline child'
+icon_uuid: null
+description: 'Un élément d''une timeline'
+behavior_plugins: {  }

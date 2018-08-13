@@ -3,21 +3,23 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.paragraph.icon_block.field_desc
+    - field.field.paragraph.icon_block.field_body
     - field.field.paragraph.icon_block.field_icon
     - field.field.paragraph.icon_block.field_title
     - paragraphs.paragraphs_type.icon_block
+  module:
+    - text
 id: paragraph.icon_block.default
 targetEntityType: paragraph
 bundle: icon_block
 mode: default
 content:
-  field_desc:
+  field_body:
     weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    type: text_default
     region: content
   field_icon:
     weight: 0

@@ -1,19 +1,21 @@
-uuid: 9948a9c1-17d5-46f4-9bcd-f057693a9a3b
+uuid: f1ae6c8e-e51d-472f-a85e-00d3d1573324
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_desc
+    - field.storage.paragraph.field_body
     - paragraphs.paragraphs_type.icon_block
-id: paragraph.icon_block.field_desc
-field_name: field_desc
+  module:
+    - text
+id: paragraph.icon_block.field_body
+field_name: field_body
 entity_type: paragraph
 bundle: icon_block
-label: desc
+label: body
 description: ''
 required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: text_long

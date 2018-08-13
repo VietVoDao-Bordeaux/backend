@@ -1,0 +1,49 @@
+uuid: 7529adb0-463f-4183-ac25-41555faec600
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.timeline_child.field_body
+    - field.field.paragraph.timeline_child.field_date
+    - field.field.paragraph.timeline_child.field_date_end
+    - field.field.paragraph.timeline_child.field_title
+    - paragraphs.paragraphs_type.timeline_child
+  module:
+    - text
+id: paragraph.timeline_child.default
+targetEntityType: paragraph
+bundle: timeline_child
+mode: default
+content:
+  field_body:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_date:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_date_end:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

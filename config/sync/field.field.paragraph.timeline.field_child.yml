@@ -1,21 +1,20 @@
-uuid: 5233c2d0-c281-4373-a00c-82a6c6f8c644
+uuid: ce53a8bf-d841-4a34-8870-66f01b8baf9d
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.storage.node.field_paragraphs
-    - node.type.article
-    - paragraphs.paragraphs_type.text_with_icons
+    - field.storage.paragraph.field_child
     - paragraphs.paragraphs_type.timeline
+    - paragraphs.paragraphs_type.timeline_child
   module:
     - entity_reference_revisions
-id: node.article.field_paragraphs
-field_name: field_paragraphs
-entity_type: node
-bundle: article
-label: paragraphs
-description: ''
-required: false
+id: paragraph.timeline.field_child
+field_name: field_child
+entity_type: paragraph
+bundle: timeline
+label: child
+description: 'Ajouter de nouvelle période ou date à la timeline'
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -24,19 +23,18 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      text_with_icons: text_with_icons
-      timeline: timeline
+      timeline_child: timeline_child
     target_bundles_drag_drop:
-      text_with_icons:
-        enabled: true
-        weight: 2
       timeline_child:
+        enabled: true
         weight: 5
-        enabled: false
       icon_block:
         weight: 6
         enabled: false
+      text_with_icons:
+        weight: 7
+        enabled: false
       timeline:
-        enabled: true
         weight: 8
+        enabled: false
 field_type: entity_reference_revisions
